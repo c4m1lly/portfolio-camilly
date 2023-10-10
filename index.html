@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- chamando o ícone na aba do navegador -->
+  <link rel="shortcut icon" href="./img/c4m1lly.png">
+  <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+  <!-- cabeçalho da nossa página, visível ao usuário -->
+  <header class="header-menu">
+    <nav>
+      <ul class="lista-menu">
+        <li><a href="#formacao">Formação</a> </li>
+        <li><a href="#portifolio">Portfólio</a></li>
+        <li><a href="#contato">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- corpo da nossa página, visível ao usuário -->
+  <main>
+    <section class="principal">
+      <article class="subcontainer-principal container">
+        <div>
+          <img src="img/c4m1lly.png" id ="fotoPrincipal"/>
+        </div>
+        <div>
+          <h1 class="nome-completo" id="minhaNav"> Camilly Da Silva Cunha</h1>
+          <h2 class="profissao">Desenvolvedora Front-end</h2>
+        </div>
+        <div class="texto-sobre">
+          <p>
+            Estudante de Engenharia de Software. Sou extremamente apaixonada por tecnologia e a forma de como podemos criar novas formas de interações humanas e soluções cotidianas. Tenho o objetivo de me tornar Desenvolvedora Front-end sênior e como forma de me acrescentar profissionalmente, me dedico também em UX Design, pois acredito que a usabilidade, navegabilidade e a experiencia do usuário afetam diretamente ao resultado final do produto.
+
+Como forma de me aperfeiçoar, estou envolvida tanto em forma autodidata, como em cursos complementares de desenvolvimento Front-end e UX. 
+
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
+    <section id="formacao">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Formação</h3>
+        </div>
+
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Introdução à programação</p>
+              <a href="https://minasprogramam.com/" target="_blank" class="lista-local">Minas Programam</a>
+             
+              </p>
+            </li>
+
+            <li>
+              <p class="lista-titulo">Engenharia de Software</p>
+              <a href="https://www.uninter.com/" target="_blank" class="lista-local">UNINTER</a>
+              
+              </p>
+            </li>
+          </ul>
+        </div>
+
+      </article>
+    </section>
+
+    <section class="principal" id="portifolio">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal"> Portfólio</h3>
+        </div>
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Mulheres em tech Brasil </p>
+            
+              <a href="https://mulherestech-react.vercel.app/" 
+              <p class="lista-descricao">API: um servidor usando javascript, Node Js,Mongodb e outras ferramentas de apoio como o Render, Vercel, Insomnia. Além disso, realizei a integração com o front em React.</p>
+            </li>
+            <li>
+              <p class="lista-titulo">Mulheres que fizeram história na tecnologia</p>
+              <a href="https://github.com/c4m1lly/site-adalovelace/"
+              <p class="lista-descricao">projeto focado em construir um site usando HTML, CSS e JAVASCRIPT mostrando a importância histórica da Ada também de forma didádica.</p>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- rodapé da nossa página, visível ao usuário -->
+  <footer class="rodape" id="contato">
+    <div class="container">
+      <ul class="lista-rodape">
+        <li><i class="fas fa-envelope-square estilo-icone"></i><a href="mailto:camilly.profissional@gmail.com" class="links">Enviar e-mail</a></li>
+        <li href=""><i class="fab fa-linkedin estilo-icone"></i> Camilly da Silva Cunha </li>
+        <li href=""><i class="fab fa-github-square estilo-icone"></i>c4m1lly</li>
+      </ul>
+      <a href="#minhaNav" class="links">Volte ao topo</a>
+    </div>
+  </footer>
+
+</body>
+
+</html> 
