@@ -55,7 +55,7 @@ li {
 .principal{
   height: 100vh; /*Altura*/
   display: flex;
-  background-color: #EAEAEA; /*Cor do fundo*/
+  background-color: white; /*Cor do fundo*/
 }
 
 /* O container é um componente do Bootstrap que garante que o seu layout vai ficar alinhado corretamente na página.
@@ -159,6 +159,11 @@ centro do browser. O container é invisível. */
   align-items: center;
 }
 
+.lista-rodape li a {
+  color:#FFFAFA;
+  text-decoration: none;
+}
+
 .estilo-icone{
  font-size: 32px;
  margin-right: 10px;
@@ -166,5 +171,4 @@ centro do browser. O container é invisível. */
 
 #fotoPrincipal{
   width: 40%;
-  
 }
